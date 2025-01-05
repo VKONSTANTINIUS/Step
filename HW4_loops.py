@@ -11,7 +11,7 @@ while number1 <= 10:
     number1 += 1
 
 print (sum)
-
+input()
 # ІI завдання
 print("\nII ЗАВДАННЯ\n")
 #Програма виводить таблицю відповідності температур 
@@ -33,6 +33,7 @@ while temp_min <= temp_max:
     temp_min += 1
 
 print("────────────")
+input()
 
 # ІII завдання
 print("\nIII ЗАВДАННЯ\n")
@@ -72,6 +73,7 @@ print("відсоток негативних - " + str(negative) + " %")
 print("відсоток нулів - " + str(zero) + " %")
 print("відсоток парних - " + str(parni) + " %")
 print("відсоток непарних - " + str(neparni) + " %")
+input()
 
 # ІV завдання
 print("\nIV ЗАВДАННЯ\n")
@@ -93,6 +95,7 @@ while start <= number_fact:
     start += 1
 
 print(str(number_fact) + "! = " + str(result))
+input()
 
 # V завдання
 print("\nV ЗАВДАННЯ\n")
@@ -110,6 +113,7 @@ while number5_task != 0:
 
 print("Кількість цифр = " + str(digit_count))
 print("Сума цифр = " + str(digit_sum))
+input()
 
 # VІ завдання
 print("\nVІ ЗАВДАННЯ\n")
@@ -128,6 +132,7 @@ while digit_div <= number6_task:
         print (digit_div, end=(", "))
 
     digit_div += 1    
+input()
 
 # VІІ завдання
 print("\nVІІ ЗАВДАННЯ\n")
@@ -151,12 +156,13 @@ if count > 1:
 
 else:
     print("введене число є простим")
-
+input()
 
 # IIX завдання
 print("\nIIX ЗАВДАННЯ\n")
 # Перевірити, чи є в введеному числі 
 # однакові цифри підряд.
+
 number8_task = int(input("введіть просте число "))
 digit1 = 0
 digit2 = 0
@@ -176,6 +182,7 @@ while number8_task != 0:
 print("У введеному числі немає однакових цифр підряд")        
 
 
+
 #Завдання на псевдографіку
 
 #1. Показати на екрані рівнобедрений трикутник висотою N.
@@ -191,6 +198,7 @@ for i in range(0, size):
         print("⓿", end=' ')
     print(" ")
 
+input()    
 
 print("\nV ЗАВДАННЯ\n")
 #5*. Ялинка зi слайду в кiнцi презентації.
@@ -243,6 +251,7 @@ while mnoj_1 <= 8:
         print(str(mnoj_1) + " * " + str(mnoj_2) + " = ", end=(""))
         print(mnoj_1 * mnoj_2)
         mnoj_2 += 1
+input()        
 
 # Показати номери та загальну кількість усіх 
 # щасливих трамвайних квитків з шестизначними номерами.   
@@ -284,6 +293,7 @@ while n1 <= 9:
     n1 += 1             
 
 print(ticket)
+input()
 
 # Написати програму, яка генерує і виводить 
 # календар на будь-який рік, вказаний з клавіатури.
